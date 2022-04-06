@@ -30,3 +30,5 @@ def ujablak():
     m1.insert(0, str(felszin))
     m2.delete(0, END)
     m2.insert(0, str(terfogat))
+
+    abl2.mainloop()
