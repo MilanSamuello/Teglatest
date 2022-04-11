@@ -1,4 +1,4 @@
-from Tkinter import*
+from Tkinter import *
 
 abl1= tk()
 abl1.title("A téglatest adatai")
@@ -32,3 +32,21 @@ def ujablak():
     m2.insert(0, str(terfogat))
 
     abl2.mainloop()
+
+szoveg1 = Label(abl1, text="a:")
+szoveg2 = Label(abl1, text="b:")
+szoveg3 = Label(abl1, text="c:")
+gomb1 = Button(abl1, text = "Számítás", command=ujablak)
+mezo1 = Entry(abl1)
+mezo2 = Entry(abl1)
+mezo3 = Entry(abl1)
+
+szoveg1.grid(row = 1)
+szoveg2.grid(row = 2)
+szoveg3.grid(row = 3)
+gomb1.grid(row = 4, column = 2, sticky = W)
+gomb1.grid(row = 1, column = 2, sticky = W)
+gomb2.grid(row = 2, column = 2, sticky = W)
+gomb3.grid(row = 3, column = 2, sticky = W)
+
+abl1.mainloop()
