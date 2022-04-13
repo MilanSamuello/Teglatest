@@ -16,7 +16,7 @@ def felszin():
         felszin = 2*(a*b+a*c+b*c)
         if felszin < 0:
             mezo4.delete(0, END)
-            mezo4.insert(0, str("Nem pozitív szám"))
+            mezo4.insert(0, str("Nincs eredmény"))
         else:
             mezo4.delete(0, END)
             mezo4.insert(0, str(felszin))
@@ -53,7 +53,7 @@ def terfogat():
         terfogat = a*b*c
         if terfogat < 0:
             mezo4.delete(0, END)
-            mezo4.insert(0, str("Nem pozitív szám"))
+            mezo4.insert(0, str("Nincs eredmény"))
         else:
             mezo4.delete(0, END)
             mezo4.insert(0, str(terfogat))

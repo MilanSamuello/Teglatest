@@ -1,4 +1,4 @@
-from Tkinter import *
+from tkinter import *
 
 abl1= tk()
 abl1.title("A téglatest adatai")
