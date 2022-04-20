@@ -1,6 +1,6 @@
 from tkinter import *
 
-abl1= tk()
+abl1 = Tk()
 abl1.title("A téglatest adatai")
 abl1.minsize(width = 300, height=100)
 
